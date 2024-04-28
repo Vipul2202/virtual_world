@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
-import Typed from 'react-typed';
+
 import Protobacillus from "../assets/Protobacillus.gif";
 import abc from "../assets/abc.gif";
 
@@ -68,14 +68,14 @@ const Hero = () => {
           <p className='md:text-5xl sm:text-4xl text-xl font-bold py-4'>
           Beyond Screens: 
           </p>
-          <Typed
+     
             className='md:text-5xl sm:text-4xl text-xl font-bold md:pl-4 pl-2'
             strings={['VR', 'Gaming', 'Adventure']}
             typeSpeed={120}
             backSpeed={140}
 
             loop
-          />
+  
         </div>
         <div className='flex justify-center fade-in-up py-24'>
           <button onClick={handleScrollClick}   className='  bg-gradient-to-r from-yellow-600 to-red-400 hover:text-white hover:font-bold w-[200px] px-4 font-bold text-black md:py-2  md:px-6 rounded-md transition duration-300 hover:bg-gradient-to-r hover:from-yellow-600 hover:to-red-400 hover:text-white hover:font-bold w-[200px] '>Get Started</button>
