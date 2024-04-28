@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <>
       <Navbar navigate={nav} />
-      <Hero />
+      {/* <Hero /> */}
       <Analytics />
       <ActiveSlider />
       <Cardjs />
